@@ -30,3 +30,38 @@
 .header nav ul li a:hover {
   text-decoration: underline;
 }
+
+.banner {
+  background-image: url("../public/library.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 0 25%;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.banner button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  padding: 15px 25px;
+}
