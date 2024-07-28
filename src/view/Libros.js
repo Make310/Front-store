@@ -1,7 +1,13 @@
 import BannerLibros from "../components/BannerLibros";
+import Categorias from "../components/Categorias";
 
 function Libros() {
-  return <BannerLibros />;
+  return (
+    <>
+      <BannerLibros />
+      <Categorias />
+    </>
+  );
 }
 
 export default Libros;
