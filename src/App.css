@@ -67,6 +67,10 @@
 }
 
 /* Categorias */
+
+.categorias h2 {
+  margin: 50px 0;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -92,4 +96,77 @@
 
 .categoria h3 {
   margin-top: 10px;
+}
+
+/* libro */
+
+.libros-recomendados h2 {
+  margin: 50px 0;
+}
+
+.libros-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.libros-grid .libro.large {
+  grid-row: span 2;
+}
+
+.libro {
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.libro:hover {
+  transform: scale(1.05);
+}
+
+.libro-imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.libro h3 {
+  margin-top: 10px;
+}
+
+.libro p {
+  margin: 5px 0;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 4rem;
+  border-top: 1px solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  margin-bottom: 10px;
 }
